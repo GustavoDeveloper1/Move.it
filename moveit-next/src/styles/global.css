@@ -66,6 +66,14 @@ a {
     flex-direction: column;
 }
 
+.container section {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:6.25rem;
+    align-items: center;   
+}
+
 .experience-bar>div {
     flex: 1;
     height: 4px;
@@ -85,4 +93,34 @@ span.current-experience {
     position: absolute;
     top: 12px;
     transform: translateX(-50%);
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-container > img {
+    width: 5.6rem;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+
+.profile-container div {
+    margin-left: 1.5rem;
+}
+
+.profile-container div strong {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.profile-container div p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.profile-container div p img {
+    margin-right: 0.5rem;
 }
