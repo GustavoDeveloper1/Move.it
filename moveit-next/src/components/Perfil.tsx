@@ -1,4 +1,4 @@
-
+// import styles from '../styles/Pages/Profiles.modules.css';
 
 export function Profile() {
     return (
