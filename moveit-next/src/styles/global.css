@@ -226,3 +226,45 @@ span.current-experience {
     background: var(--red);
     color: var(--white);
 }
+
+.challengeBox-container {
+    height: 100%;
+
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 60px rgba(0, 0, 0,  0.05);
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.challegeNotActive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challegeNotActive strong {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.challegeNotActive p {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    line-height: 1.4;
+    max-width: 70%;
+    margin-top: 3rem;
+}
+
+.challegeNotActive p img {
+    margin-bottom: 1rem;
+    
+}
