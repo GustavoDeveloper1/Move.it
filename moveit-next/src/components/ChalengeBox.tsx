@@ -14,20 +14,19 @@ export function ChallengeBox() {
                         <header> Ganhe 400xp</header>
 
                         <main>
-                            <img src="icons/bodt.svg" alt=""/>
+                            <img src="icons/body.svg" alt=""/>
                             <strong>Novo Desafio</strong>
                             <p>Levante e faça uma caminhada de 3 minutos</p>
                         </main>
 
                         <footer>
                             <button type="button"
-                            className=""
+                            className="challengeFalledButton"
                             >Falhei
                             </button>
                             <button type="button"
-                            className=""
-                            >Comple
-                            tei</button>
+                            className="challengeSucceededButton"
+                            >Completei</button>
                         </footer>
                     </div>
                 ) : (
